@@ -148,3 +148,37 @@ pm2 start ecosystem.config.js
   ```
   pm2 monit
   ```
+
+
+1 - creating subnet for our database 
+2 - we will be creating a private subnet 2 and connect it to the private subnet we initially created  
+3 - go to rds and click on subnet group (create subnet group)
+rds_inventorymanagement_initial
+
+
+
+deploying the frontend to amplify
+1 - 
+
+
+
+
+s3 bucket
+1 - bucket name 
+2 - ACL disabled
+3 - Uncheck Block Public Access settings for this bucket
+4 - Bucket Versioning (disabled)
+
+5 - Bucket policy 
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::s3inventmanagement/*"
+        }
+    ]
+}
