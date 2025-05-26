@@ -18,16 +18,16 @@
 
 ### Configuration and Code
 
-- [tailwind.config.ts](https://github.com/ed-roh/inventory-management/blob/master/client/tailwind.config.ts) (to copy)
-- [Redux store file](https://github.com/ed-roh/inventory-management/blob/master/client/src/app/redux.tsx) (to copy)
-- [Seed files for database](https://github.com/ed-roh/inventory-management/blob/master/server/prisma/seed.ts) (to copy)
-- [Seed data files](https://github.com/ed-roh/inventory-management/tree/master/server/prisma/seedData) (to download)
+- [tailwind.config.ts](https://github.com/HenryCode4/inventory-management/blob/master/client/tailwind.config.ts) (to copy)
+- [Redux store file](https://github.com/HenryCode4/inventory-management/blob/master/client/src/app/redux.tsx) (to copy)
+- [Seed files for database](https://github.com/HenryCode4/inventory-management/blob/master/server/prisma/seed.ts) (to copy)
+- [Seed data files](https://github.com/HenryCode4/inventory-management/tree/master/server/prisma/seedData) (to download)
 
 ### Additional Resources
 
 - [Data model diagram](https://drawsql.app/teams/team-3023/diagrams/56-inventorymanagement)
-- [Prisma schema file](https://github.com/ed-roh/inventory-management/blob/master/server/prisma/schema.prisma)
-- [AWS commands](https://github.com/ed-roh/inventory-management/blob/master/server/aws-ec2-instructions.md)
+- [Prisma schema file](https://github.com/HenryCode4/inventory-management/blob/master/server/prisma/schema.prisma)
+- [AWS commands](https://github.com/HenryCode4/inventory-management/blob/master/server/aws-ec2-instructions.md)
 
 npm i prisma @prisma/client
 npx prisma init
